@@ -1,333 +1,336 @@
 <!DOCTYPE html>
+
 <html lang="fa" dir="rtl">
 
-<head><meta name="google-site-verification" content="kNPT-pYhXAKELfaPRrLKWoC2Sqx1bHl7-go2A0rEUD0" />
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>باشگاه نام‌آوران جنوب</title>
+```
+<!-- Google Search Console Verification -->
+<meta name="google-site-verification" content="kNPT-pYhXAKELfaPRrLKWoC2Sqx1bHl7-go2A0rEUD0">
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+<title>باشگاه نام‌آوران جنوب</title>
 
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #eef7f0;
-            color: #222;
-            text-align: center;
-        }
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
-        header {
-            background-color: #168a45;
-            color: white;
-            padding: 40px 20px;
-        }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #eef7f0;
+        color: #222;
+        text-align: center;
+    }
 
-        .logo {
-            width: 130px;
-            height: 130px;
-            object-fit: contain;
-            margin-bottom: 15px;
-        }
+    header {
+        background-color: #168a45;
+        color: white;
+        padding: 40px 20px;
+    }
+
+    .logo {
+        width: 130px;
+        height: 130px;
+        object-fit: contain;
+        margin-bottom: 15px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 42px;
+    }
+
+    header p {
+        color: white;
+        font-size: 20px;
+    }
+
+    nav {
+        background-color: #0d6330;
+        padding: 15px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 12px;
+        font-size: 17px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    .welcome {
+        background-color: white;
+        padding: 35px 25px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    .welcome h2 {
+        color: #168a45;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .welcome p {
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+    }
+
+    .menu-card {
+        display: block;
+        background-color: white;
+        padding: 30px 20px;
+        border-radius: 18px;
+        text-decoration: none;
+        color: #222;
+        transition: 0.3s;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .menu-card:hover {
+        transform: translateY(-7px);
+        background-color: #d7f0df;
+    }
+
+    .menu-card .icon {
+        font-size: 45px;
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    .menu-card h2 {
+        color: #168a45;
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .menu-card p {
+        font-size: 16px;
+        margin: 0;
+        line-height: 1.8;
+    }
+
+    .slogan {
+        background-color: #168a45;
+        color: white;
+        padding: 35px;
+        border-radius: 18px;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    footer {
+        background-color: #0d6330;
+        color: white;
+        padding: 25px;
+        margin-top: 30px;
+    }
+
+    footer p {
+        color: white;
+        margin: 8px 0;
+        font-size: 16px;
+    }
+
+    /* امضای JR EDITSITE */
+    .jr-credit {
+        margin-top: 18px;
+        padding-top: 15px;
+        border-top: 1px solid rgba(255, 255, 255, 0.25);
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.75);
+        direction: ltr;
+    }
+
+    .jr-credit a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .jr-credit a:hover {
+        opacity: 0.7;
+    }
+
+    /* دکمه ارتباط با طراح */
+    .jr-contact {
+        position: fixed;
+        left: 18px;
+        bottom: 18px;
+        background-color: rgba(13, 99, 48, 0.88);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 25px;
+        font-size: 13px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+        z-index: 999;
+        opacity: 0.8;
+    }
+
+    .jr-contact:hover {
+        opacity: 1;
+        transform: translateY(-3px);
+    }
+
+    @media (max-width: 600px) {
 
         header h1 {
-            margin: 0;
-            font-size: 42px;
-        }
-
-        header p {
-            color: white;
-            font-size: 20px;
-        }
-
-        nav {
-            background-color: #0d6330;
-            padding: 15px;
+            font-size: 30px;
         }
 
         nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 12px;
-            font-size: 17px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 40px 20px;
-        }
-
-        .welcome {
-            background-color: white;
-            padding: 35px 25px;
-            border-radius: 20px;
-            margin-bottom: 30px;
+            display: inline-block;
+            margin: 8px;
         }
 
         .welcome h2 {
-            color: #168a45;
-            font-size: 30px;
-            margin-top: 0;
-        }
-
-        .welcome p {
-            font-size: 18px;
-            line-height: 2;
-        }
-
-        .menu-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
-
-        .menu-card {
-            display: block;
-            background-color: white;
-            padding: 30px 20px;
-            border-radius: 18px;
-            text-decoration: none;
-            color: #222;
-            transition: 0.3s;
-            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
-        }
-
-        .menu-card:hover {
-            transform: translateY(-7px);
-            background-color: #d7f0df;
-        }
-
-        .menu-card .icon {
-            font-size: 45px;
-            display: block;
-            margin-bottom: 12px;
-        }
-
-        .menu-card h2 {
-            color: #168a45;
-            font-size: 22px;
-            margin: 10px 0;
-        }
-
-        .menu-card p {
-            font-size: 16px;
-            margin: 0;
-            line-height: 1.8;
+            font-size: 25px;
         }
 
         .slogan {
-            background-color: #168a45;
-            color: white;
-            padding: 35px;
-            border-radius: 18px;
-            font-size: 25px;
-            margin-top: 30px;
+            font-size: 20px;
         }
 
-        footer {
-            background-color: #0d6330;
-            color: white;
-            padding: 25px;
-            margin-top: 30px;
-        }
-
-        footer p {
-            color: white;
-            margin: 8px 0;
-            font-size: 16px;
-        }
-
-        /* امضای JR EDITSITE */
-        .jr-credit {
-            margin-top: 18px;
-            padding-top: 15px;
-            border-top: 1px solid rgba(255, 255, 255, 0.25);
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.75);
-            direction: ltr;
-        }
-
-        .jr-credit a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .jr-credit a:hover {
-            opacity: 0.7;
-        }
-
-        /* دکمه کوچک ارتباط با JR EDITSITE */
         .jr-contact {
-            position: fixed;
-            left: 18px;
-            bottom: 18px;
-            background-color: rgba(13, 99, 48, 0.88);
-            color: white;
-            text-decoration: none;
-            padding: 10px 15px;
-            border-radius: 25px;
-            font-size: 13px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-            transition: 0.3s;
-            z-index: 999;
-            opacity: 0.8;
+            left: 12px;
+            bottom: 12px;
+            padding: 9px 13px;
+            font-size: 12px;
         }
+    }
+</style>
+```
 
-        .jr-contact:hover {
-            opacity: 1;
-            transform: translateY(-3px);
-        }
-}
-
-        @media (max-width: 600px) {
-
-            header h1 {
-                font-size: 30px;
-            }
-
-            nav a {
-                display: inline-block;
-                margin: 8px;
-            }
-
-            .welcome h2 {
-                font-size: 25px;
-            }
-
-            .slogan {
-                font-size: 20px;
-            }
-
-            .jr-contact {
-                left: 12px;
-                bottom: 12px;
-                padding: 9px 13px;
-                font-size: 12px;
-            }
-        }
-    </style>
 </head>
 
 <body>
 
-</div>
-    <header>
+```
+<header>
 
-        <img src="logo.png"
-             alt="لوگوی باشگاه نام‌آوران جنوب"
-             class="logo">
+    <img src="logo.png"
+         alt="لوگوی باشگاه نام‌آوران جنوب"
+         class="logo">
 
-        <h1>⚽ باشگاه نام‌آوران جنوب</h1>
+    <h1>⚽ باشگاه نام‌آوران جنوب</h1>
+
+    <p>
+        به وب‌سایت رسمی باشگاه نام‌آوران جنوب خوش آمدید 🟢
+    </p>
+
+</header>
+
+<nav>
+
+    <a href="index.html">خانه</a>
+    <a href="about.html">درباره باشگاه</a>
+    <a href="matches.html">نتایج مسابقات</a>
+    <a href="coaches.html">کادر فنی</a>
+    <a href="players.html">بازیکنان</a>
+    <a href="goal.html">هدف ما</a>
+
+</nav>
+
+<main class="container">
+
+    <section class="welcome">
+
+        <h2>🟢 به خانواده نام‌آوران جنوب خوش آمدید</h2>
 
         <p>
-            به وب‌سایت رسمی باشگاه نام‌آوران جنوب خوش آمدید 🟢
+            در این وب‌سایت می‌توانید با باشگاه نام‌آوران جنوب،
+            بازیکنان، کادر فنی و نتایج مسابقات ما آشنا شوید.
         </p>
 
-    </header>
+    </section>
 
+    <div class="menu-grid">
 
-    <nav>
+        <a href="about.html" class="menu-card">
+            <span class="icon">⚽</span>
+            <h2>درباره باشگاه</h2>
+            <p>با نام‌آوران جنوب و مسیر فعالیت تیم آشنا شوید.</p>
+        </a>
 
-        <a href="index.html">خانه</a>
-        <a href="about.html">درباره باشگاه</a>
-        <a href="matches.html">نتایج مسابقات</a>
-        <a href="coaches.html">کادر فنی</a>
-        <a href="players.html">بازیکنان</a>
-        <a href="goal.html">هدف ما</a>
+        <a href="matches.html" class="menu-card">
+            <span class="icon">🏆</span>
+            <h2>نتایج مسابقات</h2>
+            <p>نتایج و اتفاقات مسابقات تیم را مشاهده کنید.</p>
+        </a>
 
-    </nav>
+        <a href="coaches.html" class="menu-card">
+            <span class="icon">👔</span>
+            <h2>کادر فنی</h2>
+            <p>با مربیان و اعضای کادر فنی تیم آشنا شوید.</p>
+        </a>
 
+        <a href="players.html" class="menu-card">
+            <span class="icon">👥</span>
+            <h2>بازیکنان</h2>
+            <p>لیست بازیکنان نام‌آوران جنوب را ببینید.</p>
+        </a>
 
-    <div class="container">
+        <a href="goal.html" class="menu-card">
+            <span class="icon">🎯</span>
+            <h2>هدف ما</h2>
+            <p>با اهداف و مسیر پیشرفت تیم آشنا شوید.</p>
+        </a>
 
-        <section class="welcome">
+    </div>
 
-            <h2>🟢 به خانواده نام‌آوران جنوب خوش آمدید</h2>
+    <div class="slogan">
+        ⚽ یک تیم، یک هدف، یک نام؛ نام‌آوران جنوب 🟢
+    </div>
 
-            <p>
-                در این وب‌سایت می‌توانید با باشگاه نام‌آوران جنوب،
-                بازیکنان، کادر فنی و نتایج مسابقات ما آشنا شوید.
-            </p>
+</main>
 
-        </section>
+<footer>
 
+    <p>© باشگاه فوتسال نام‌آوران جنوب</p>
 
-        <div class="menu-grid">
+    <p>شهرستان جیرفت | جنوب استان کرمان</p>
 
-            <a href="about.html" class="menu-card">
-                <span class="icon">⚽</span>
-                <h2>درباره باشگاه</h2>
-                <p>با نام‌آوران جنوب و مسیر فعالیت تیم آشنا شوید.</p>
-            </a>
+    <div class="jr-credit">
+        Designed &amp; Developed by
+        <a href="https://rubika.ir/Timoti_66" target="_blank" rel="noopener noreferrer">
+            JR EDITSITE
+        </a>
+    </div>
 
-            <a href="matches.html" class="menu-card">
-                <span class="icon">🏆</span>
-                <h2>نتایج مسابقات</h2>
-                <p>نتایج و اتفاقات مسابقات تیم را مشاهده کنید.</p>
-            </a>
+</footer>
 
-            <a href="coaches.html" class="menu-card">
-                <span class="icon">👔</span>
-                <h2>کادر فنی</h2>
-                <p>با مربیان و اعضای کادر فنی تیم آشنا شوید.</p>
-            </a>
+<a href="https://rubika.ir/Timoti_66"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="jr-contact">
+    ارتباط با JR EDITSITE
+</a>
 
-            <a href="players.html" class="menu-card">
-                <span class="icon">👥</span>
-                <h2>بازیکنان</h2>
-                <p>لیست بازیکنان نام‌آوران جنوب را ببینید.</p>
-            </a>
-
-            <a href="goal.html" class="menu-card">
-                <span class="icon">🎯</span>
-                <h2>هدف ما</h2>
-                <p>با اهداف و مسیر پیشرفت تیم آشنا شوید.</p>
-            </a>
-
-        </div>
-
-
-        <div class="slogan">
-            ⚽ یک تیم، یک هدف، یک نام؛ نام‌آوران جنوب 🟢
-        </div>
-
-    <footer>
-
-        <p>© باشگاه فوتسال نام‌آوران جنوب</p>
-
-        <p>شهرستان جیرفت | جنوب استان کرمان</p>
-
-        <div class="jr-credit">
-            Designed & Developed by
-            <a href="https://rubika.ir/Timoti_66" target="_blank">
-                JR EDITSITE
-            </a>
-        </div>
-
-    </footer>
-
-
-    <!-- دکمه کوچک ارتباط با طراح -->
-    <a href="https://rubika.ir/Timoti_66"
-       target="_blank"
-       class="jr-contact">
-        ارتباط با JR EDITSITE
-    </a>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="supabase.js"></script>
-    <script src="site.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="site.js"></script>
+```
 
 </body>
 
